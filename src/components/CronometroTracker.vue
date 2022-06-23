@@ -25,8 +25,8 @@
   })
 </script>
 
-<style scoped>
+<style >
   .display{
-    color: var(--texto-primario);
+    color: #000;
   }
 </style>

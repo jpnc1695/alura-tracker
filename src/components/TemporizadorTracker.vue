@@ -2,7 +2,7 @@
       <div class="is-flex is-align-items-center">
           <CronometroTracker :tempoEmSegundos="tempoEmSegundos"/>
           <BotaoTracker @clicado="iniciar" icone="fas fa-play" texto="play" :desabilitado="cronometroRodando"/>
-          <BotaoTracker @clicado="finalizar" icone='fas fa-stop' texto="stop" :desabilitado="!cronometroRodando"/>           
+          <BotaoTracker @clicado="finalizar" icone="fas fa-stop" texto="stop" :desabilitado="!cronometroRodando"/>           
     </div>
 </template> 
 
